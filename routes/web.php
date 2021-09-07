@@ -20,7 +20,7 @@ Route::get('/', function () {
     echo "Selamat Datang";
 });
 Route::get('/about', function () {
-    echo "Nama  Raviansyah";
+    echo "Nama  Raviansyah<br>";
     echo "NIM : 2031710001";
 });
 Route::get('/articel', function ($id='1') {
