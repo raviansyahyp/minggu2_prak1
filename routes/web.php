@@ -23,6 +23,6 @@ Route::get('/about', function () {
     echo "Nama  Raviansyah<br>";
     echo "NIM : 2031710001";
 });
-Route::get('/articles', function ($id='1') {
-    echo "Halaman artikel 1";
+Route::get('/articles/{id}', function ($id) {
+    echo "Halaman Artikel dengan ID " . $id;
 });
